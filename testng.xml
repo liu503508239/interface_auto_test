@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="接口测试">
+
+<!--    <listeners>-->
+<!--        <listener class-name="com.lemon.listener.AllureReportListener"></listener>-->
+<!--    </listeners>-->
+    <test  name="测试">
+
+        <parameter name="browserName" value="chrome"></parameter>
+<!--        <parameter name="tester" value="lemon"></parameter>-->
+        <classes>
+            <class name="com.lemon.testcases.RegisterTest"></class>
+            <class name="com.lemon.testcases.LoginTest"></class>
+            <class name="com.lemon.testcases.RechargeTest"></class>
+            <class name="com.lemon.testcases.AddLoanTest"></class>
+            <class name="com.lemon.testcases.investFlowTest"></class>
+
+
+        </classes>
+    </test>
+
+
+</suite>
